@@ -37,3 +37,11 @@ The Nginx website became reachable via the public IP.
 ## Key Learning
 Always check which NSG is attached to the NIC.  
 Rules in an unused NSG have no effect.
+## Proof
+
+Nginx was reachable at:
+http://40.115.127.224
+
+Script used by Azure Custom Script Extension:
+https://raw.githubusercontent.com/Noah0916/azure-scripts/main/install-nginx.sh
+
